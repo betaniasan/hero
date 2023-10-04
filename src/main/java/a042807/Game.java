@@ -18,6 +18,8 @@ public class Game {
     private  int x = 10;
     private int y = 10;
 
+    private boolean quit = false;
+
 
 
     public Game() throws IOException {
@@ -40,9 +42,11 @@ public class Game {
         screen.refresh();
     }
     public void run() throws IOException {
-        draw();
-        com.googlecode.lanterna.input.KeyStroke key = screen.readInput();
-        processKey(key);
+        while(!quit) {
+            draw();
+            com.googlecode.lanterna.input.KeyStroke key = screen.readInput();
+            processKey(key);
+        }
     }
 
 
@@ -66,7 +70,7 @@ public class Game {
                     return;
                 }
             case EOF:
-                return;
+                quit = true;
         }
     }
 }
