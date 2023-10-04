@@ -2,6 +2,7 @@ package a042807;
 
 import com.googlecode.lanterna.TerminalSize;
 import com.googlecode.lanterna.TextCharacter;
+import com.googlecode.lanterna.input.KeyStroke;
 import com.googlecode.lanterna.screen.Screen;
 import com.googlecode.lanterna.screen.TerminalScreen;
 import com.googlecode.lanterna.terminal.DefaultTerminalFactory;
@@ -45,7 +46,27 @@ public class Game {
     }
 
 
-    private void processKey(com.googlecode.lanterna.input.KeyStroke key ) throws IOException {
-        System.out.println(key);
+    private void processKey(KeyStroke key) throws IOException {
+        switch (key.getKeyType()) {
+            case ArrowUp:
+                y--;
+                break;
+            case ArrowRight:
+                x++;
+                break;
+            case ArrowDown:
+                y++;
+                break;
+            case ArrowLeft:
+                x--;
+                break;
+            case Character:
+                if (key.getCharacter() == 'q') {
+                    screen.close();
+                    return;
+                }
+            case EOF:
+                return;
+        }
     }
 }
