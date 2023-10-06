@@ -38,7 +38,7 @@ public class Game {
     private void draw() throws IOException {
         screen.clear();
         screen.setCharacter(x, y, TextCharacter.fromCharacter('X')[0]);
-
+7
         screen.refresh();
     }
     public void run() throws IOException {
