@@ -37,7 +37,9 @@ public class Arena {
 
     public void processKey(KeyStroke key, Screen screen) throws IOException {
         if(gameOver){
-            screen.close();
+            if (key.getKeyType() == KeyType.Character && key.getCharacter() == 'r') {
+                resetGame();
+            }else{screen.close();}
         }
         if (key.getKeyType() == KeyType.EOF) {
             isRunning = false;
@@ -70,7 +72,14 @@ public class Arena {
     public void setHeroPosition(Position position) {
         hero.setPosition(position);
     }
-
+    public void resetGame() {
+        hero.setPosition(new Position(10, 10));
+        coinCount = 0;
+        gameOver = false;
+    }
+    public void gameOver() {
+        gameOver = true;
+    }
     public void addCoin(Coin coin) {
         coins.add(coin);
     }
@@ -160,6 +169,7 @@ public class Arena {
         if (gameOver) {
             textGraphics.setForegroundColor(TextColor.ANSI.RED);
             textGraphics.putString(new TerminalPosition(width / 2 - 5, height / 2), "Game Over");
+            textGraphics.putString(new TerminalPosition(width / 2 - 10, height / 2 + 2), "Press 'R' to restart or Any Key to Exit");
         }
     }
     private void moveHero(Position position) {
