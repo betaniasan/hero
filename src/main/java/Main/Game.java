@@ -1,4 +1,4 @@
-package a042807;
+package Main;
 
 import com.googlecode.lanterna.TerminalSize;
 import com.googlecode.lanterna.screen.Screen;
@@ -14,7 +14,7 @@ public class Game {
     Screen screen;
     TerminalSize terminalSize ;
     public Game() throws IOException {
-        arena = new Arena(75,40);
+        arena = new Arena(80,24);
         terminal = new DefaultTerminalFactory().createTerminal();
         screen = new TerminalScreen(terminal);
         terminalSize = new TerminalSize(40, 20);

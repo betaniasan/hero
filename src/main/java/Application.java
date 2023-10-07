@@ -1,6 +1,6 @@
-import a042807.Game;
-
+import Main.*;
 import java.io.IOException;
+
 
 public class Application {
 

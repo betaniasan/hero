@@ -1,5 +1,6 @@
-package a042807;
+package Element;
 
+import Element.Element;
 import com.googlecode.lanterna.SGR;
 import com.googlecode.lanterna.TextCharacter;
 import com.googlecode.lanterna.TextColor;
@@ -8,14 +9,12 @@ import com.googlecode.lanterna.screen.Screen;
 
 import java.util.Collections;
 
-public class Wall {
-
-    private Position position;
+public class Wall extends Element {
 
     public Wall(int x, int y) {
-        position = new Position(x, y);
+        super(x, y);
     }
-
+    @Override
     public void draw(TextGraphics graphics, Screen screen) {
 
         TextCharacter wallCharacter = new TextCharacter('#', TextColor.ANSI.DEFAULT, TextColor.ANSI.DEFAULT);
@@ -34,7 +33,7 @@ public class Wall {
         graphics.setCharacter(x2, y2 + 1, wallBackground);
         graphics.setCharacter(x2 + 1, y2 + 1, wallBackground);
 
-        graphics.setCharacter(x2, y2, boldCharacter);
+        screen.setCharacter(x, y, boldCharacter);
         graphics.setCharacter(x2 + 1, y2, boldCharacter);
         graphics.setCharacter(x2, y2 + 1, boldCharacter);
         graphics.setCharacter(x2 + 1, y2 + 1, boldCharacter);
@@ -44,4 +43,3 @@ public class Wall {
         return position;
     }
 }
-
