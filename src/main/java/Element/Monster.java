@@ -9,7 +9,7 @@ import java.util.Random;
 
 public class Monster extends Element {
 
-
+//Completo
     private int damage;
     public Monster(int x, int y, int damage) {
         super(x, y);
