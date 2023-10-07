@@ -30,8 +30,8 @@ public class Hero extends Element {
         screen.setCharacter(position.getX(), position.getY(), new TextCharacter('X', TextColor.ANSI.DEFAULT, TextColor.ANSI.DEFAULT));
         graphics.setForegroundColor(TextColor.Factory.fromString("#FFFF33"));
         graphics.enableModifiers(SGR.BOLD);
-        graphics.putString(new TerminalPosition(position.getX() * 2, position.getY() * 2), "\\/");
-        graphics.putString(new TerminalPosition(position.getX() * 2, position.getY() * 2 + 1), "/\\");
+        graphics.putString(new TerminalPosition(position.getX() , position.getY() ), "\\/");
+        graphics.putString(new TerminalPosition(position.getX() , position.getY() ), "/\\");
     }
 
     public boolean collidesWithMonster(Monster monster) {
