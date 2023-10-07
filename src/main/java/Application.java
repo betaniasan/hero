@@ -1,4 +1,6 @@
 import Main.*;
+import Misc.ArenaLoader;
+
 import java.io.IOException;
 
 

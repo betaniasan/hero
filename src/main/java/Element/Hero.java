@@ -27,11 +27,10 @@ public class Hero extends Element {
     }
    @Override
     public void draw(TextGraphics graphics, Screen screen){
-        screen.setCharacter(position.getX(), position.getY(), new TextCharacter('X', TextColor.ANSI.DEFAULT, TextColor.ANSI.DEFAULT));
+        screen.setCharacter(position.getX(), position.getY(), new TextCharacter('H', TextColor.ANSI.DEFAULT, TextColor.ANSI.DEFAULT));
         graphics.setForegroundColor(TextColor.Factory.fromString("#FFFF33"));
         graphics.enableModifiers(SGR.BOLD);
-        graphics.putString(new TerminalPosition(position.getX() , position.getY() ), "\\/");
-        graphics.putString(new TerminalPosition(position.getX() , position.getY() ), "/\\");
+        graphics.putString(new TerminalPosition(position.getX() , position.getY() ), "H");
     }
 
     public boolean collidesWithMonster(Monster monster) {

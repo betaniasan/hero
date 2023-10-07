@@ -1,5 +1,6 @@
 package Main;
 
+import Misc.ArenaLoader;
 import com.googlecode.lanterna.TerminalSize;
 import com.googlecode.lanterna.screen.Screen;
 import com.googlecode.lanterna.screen.TerminalScreen;
@@ -27,8 +28,10 @@ public class Game {
 
     }
     private void draw() throws IOException {
+        Arena arenapre = ArenaLoader.loadArenaFromFile("maps/map1.txt");
+        // Inicialize o jogo com a arena carregada
         screen.clear();
-        arena.draw(screen.newTextGraphics(), screen);
+        arenapre.draw(screen.newTextGraphics(), screen);
         screen.refresh();
     }
     public void run() throws IOException {
@@ -37,7 +40,6 @@ public class Game {
             com.googlecode.lanterna.input.KeyStroke key = screen.readInput();
             processKey(key);
         }
-
     }
 
     private void processKey(com.googlecode.lanterna.input.KeyStroke key ) throws IOException {
