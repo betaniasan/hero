@@ -36,29 +36,31 @@ public class Arena {
     }
 
     public void processKey(KeyStroke key, Screen screen) throws IOException {
-        if (gameOver) {
+        if(gameOver){
             screen.close();
-        } else {
-            Position newPosition = hero.getPosition();
-            if (key.getKeyType() == KeyType.EOF) {
-                isRunning = false;
-            } else if (key.getKeyType() == KeyType.Character && key.getCharacter() == 'q') {
-                screen.close();
-            } else if (key.getKeyType() == KeyType.ArrowUp) {
-                newPosition = hero.moveUp();
-            } else if (key.getKeyType() == KeyType.ArrowDown) {
-                newPosition = hero.moveDown();
-            } else if (key.getKeyType() == KeyType.ArrowLeft) {
-                newPosition = hero.moveLeft();
-            } else if (key.getKeyType() == KeyType.ArrowRight) {
-                newPosition = hero.moveRight();
-            }
-
-            if (canHeroMove(newPosition)) {
-                moveHero(newPosition);
-                retrieveCoins();
-                verifyMonsterCollisions();
-            }
+        }
+        if (key.getKeyType() == KeyType.EOF) {
+            isRunning = false;
+            return;
+        }
+        if (key.getKeyType() == KeyType.Character && key.getCharacter() == 'q') {
+            screen.close();
+        }
+        verifyMonsterCollisions();
+        moveMonsters();
+        Position newPosition = hero.getPosition();
+        if (key.getKeyType() == KeyType.ArrowUp) {
+            newPosition = hero.moveUp();
+        } else if (key.getKeyType() == KeyType.ArrowDown) {
+            newPosition = hero.moveDown();
+        } else if (key.getKeyType() == KeyType.ArrowLeft) {
+            newPosition = hero.moveLeft();
+        } else if (key.getKeyType() == KeyType.ArrowRight) {
+            newPosition = hero.moveRight();
+        }
+        if (canHeroMove(newPosition)) {
+            moveHero(newPosition);
+            retrieveCoins();
         }
     }
     public void addWall(Wall wall) {
@@ -76,7 +78,6 @@ public class Arena {
     public void addMonster(Monster monster) {
         monsters.add(monster);
     }
-
     private List<Monster> createMonsters() {
         Random random = new Random();
         ArrayList<Monster> monsters = new ArrayList<>();

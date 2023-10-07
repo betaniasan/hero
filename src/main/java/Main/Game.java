@@ -28,10 +28,9 @@ public class Game {
 
     }
     private void draw() throws IOException {
-        Arena arenapre = ArenaLoader.loadArenaFromFile("maps/map1.txt");
-        // Inicialize o jogo com a arena carregada
+        //Arena arenapre = ArenaLoader.loadArenaFromFile("maps/map1.txt");
         screen.clear();
-        arenapre.draw(screen.newTextGraphics(), screen);
+        arena.draw(screen.newTextGraphics(), screen);
         screen.refresh();
     }
     public void run() throws IOException {
