@@ -20,9 +20,46 @@ public class Arena {
     private int width;
     private int height;
     private boolean isRunning = true;
+
+    public boolean isGameOver(){
+        return gameOver;
+    }
+    public Hero getHero() {
+        return hero;
+    }
+
+    public void setHero(Hero hero) {
+        this.hero = hero;
+    }
+
     Hero hero;
 
+    public List<Wall> getWalls() {
+        return walls;
+    }
+
+    public void setWalls(List<Wall> walls) {
+        this.walls = walls;
+    }
+
     private List<Wall> walls = new ArrayList<Wall>();
+
+    public List<Coin> getCoins() {
+        return coins;
+    }
+
+    public void setCoins(List<Coin> coins) {
+        this.coins = coins;
+    }
+
+    public List<Monster> getMonsters() {
+        return monsters;
+    }
+
+    public void setMonsters(List<Monster> monsters) {
+        this.monsters = monsters;
+    }
+
     private List<Coin> coins = new ArrayList<Coin>();
     private List<Monster> monsters = new ArrayList<Monster>();
 
@@ -201,7 +238,7 @@ public class Arena {
         }
         return coins;
     }
-    private boolean isCoinOnHero(int x, int y) {
+    public boolean isCoinOnHero(int x, int y) {
         return hero.getPosition().getX() == x && hero.getPosition().getY() == y;
     }
     public void retrieveCoins() {
