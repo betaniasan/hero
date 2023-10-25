@@ -11,6 +11,15 @@ import java.io.IOException;
 
 public class Game {
     Terminal terminal;
+
+    public Arena getArena() {
+        return arena;
+    }
+
+    public void setArena(Arena arena) {
+        this.arena = arena;
+    }
+
     Arena arena;
     Screen screen;
     TerminalSize terminalSize ;
@@ -41,7 +50,7 @@ public class Game {
         }
     }
 
-    private void processKey(com.googlecode.lanterna.input.KeyStroke key ) throws IOException {
+    public void processKey(com.googlecode.lanterna.input.KeyStroke key) throws IOException {
         arena.processKey(key, screen);
     }
 
