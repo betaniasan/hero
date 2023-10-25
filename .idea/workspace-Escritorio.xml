@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="72b53137-ed30-4253-91bc-5d962f61bad3" name="Changes" comment="Testes Inicio , plugins no build.gradle">
+      <change afterPath="$PROJECT_DIR$/src/test/java/CoinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ElementTest.Java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HeroTest.Java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MonsterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PositionTest.Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2XG0D6lFstflAh5yLnh9LptgPcD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "android.gradle.sync.needed": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/MC_SE/OneDrive - Maieutica/Documents/LEI/2ºAno/1ºSemestre/Programação Orientada a Objetos - Equivalência/Lab 2/hero",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72b53137-ed30-4253-91bc-5d962f61bad3" name="Changes" comment="" />
+      <created>1698239987615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698239987615</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Testes Inicio">
+      <option name="closed" value="true" />
+      <created>1698240104647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698240104647</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Testes Inicio , plugins no build.gradle">
+      <option name="closed" value="true" />
+      <created>1698240858100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698240858100</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Testes Inicio" />
+    <MESSAGE value="Testes Inicio , plugins no build.gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testes Inicio , plugins no build.gradle" />
+  </component>
+</project>
