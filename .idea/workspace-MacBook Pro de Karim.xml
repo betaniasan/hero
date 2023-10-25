@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="72b53137-ed30-4253-91bc-5d962f61bad3" name="Changes" comment="Testes Position , plugins no build.gradle">
+      <change afterPath="$PROJECT_DIR$/src/test/java/RandomMonsterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WallTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace-Escritorio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace-Escritorio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/map1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/maps/map1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Element/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Element/Coin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Element/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Element/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Element/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Element/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Element/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Element/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Element/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Element/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Element/RandomMonster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Element/RandomMonster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Element/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Element/Wall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main/Arena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Arena.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Misc/ArenaLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Misc/ArenaLoader.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2XG0D6lFstflAh5yLnh9LptgPcD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "/Users/karim/Library/CloudStorage/OneDrive-Maieutica/Documents/LEI/2ºAno/1ºSemestre/Programação Orientada a Objetos - Equivalência/Lab 2/hero",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Gradle.Tests in 'hero'">
+    <configuration name="HeroTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;HeroTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'hero'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'hero'" />
+        <item itemvalue="Gradle.HeroTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72b53137-ed30-4253-91bc-5d962f61bad3" name="Changes" comment="" />
+      <created>1698239987615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698239987615</updated>
+      <workItem from="1698243013110" duration="160000" />
+    </task>
+    <task id="LOCAL-00001" summary="Testes Inicio">
+      <option name="closed" value="true" />
+      <created>1698240104647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698240104647</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Testes Inicio , plugins no build.gradle">
+      <option name="closed" value="true" />
+      <created>1698240858100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698240858100</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Testes Inicio , plugins no build.gradle">
+      <option name="closed" value="true" />
+      <created>1698242495089</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698242495089</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Testes Position , plugins no build.gradle">
+      <option name="closed" value="true" />
+      <created>1698242509829</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698242509829</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Testes Inicio" />
+    <MESSAGE value="Testes Inicio , plugins no build.gradle" />
+    <MESSAGE value="Testes Position , plugins no build.gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testes Position , plugins no build.gradle" />
+  </component>
+</project>
